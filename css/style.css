@@ -1,3 +1,5 @@
+@import url("./orgpages.css");
+@import url("./imgfigurante.css");
 body {
     background-color: rgb(244, 227, 207);
 }
@@ -35,6 +37,7 @@ li {
 }
 
 img {
+    background-color: black;
     max-width: 800px;
     max-height: 500px;
     height: auto;
