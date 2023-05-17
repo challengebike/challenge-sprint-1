@@ -6,6 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Simulação de cadastro</title>
         <link rel="stylesheet" href="../css/estilo.css">
+
+        <script src="../js/script.js" defer></script>
     </head>
 
     <body> 
@@ -14,13 +16,14 @@
         <p>Olá, tudo bem? Seja bem-vindo ao Technobike. Nosso objetivo é promover uma vistoria do seguro bike com rapidez e comodidade a você com a utilização de inteligência artificial, sem precisar sair de casa.  </p>
         <p>Para começarmos, preciso que você escolha o tipo de seguro que mais se adequa às suas necessidades: </p>
         <ul>
-            <li> (x) Para ciclistas que pedalam na rua</li>
-            <li> (x) Para ciclistas de maratona</li>
-            <li> (x) Para ciclistas que pedalam em montanhas</li>
-            <li> (x) Para ciclistas que pedalam em pedras e rochas</li>
-            <li> (x) Para ciclistas que pedalam em terra e mato</li>
-            <li> (x) Para ciclistas por hobbie</li>
-            <li> (x) Para ciclistas que viajam com a bike</li>
+            <li> <button onclick="mensagem('1')" class="botao">X</button> Para ciclistas que pedalam na rua</li>
+            <li> <button onclick="mensagem('2')" class="botao">X</button> Para ciclistas de maratona</li>
+            <li> <button onclick="mensagem('3')" class="botao">X</button> Para ciclistas que pedalam em montanhas</li>
+            <li> <button onclick="mensagem('4')" class="botao">X</button> Para ciclistas que pedalam em pedras e rochas</li>
+            <li> <button onclick="mensagem('5')" class="botao">X</button> Para ciclistas que pedalam em terra e mato</li>
+            <li> <button onclick="mensagem('6')" class="botao">X</button> Para ciclistas por hobbie</li>
+            <li> <button onclick="mensagem('7')" class="botao">X</button> Para ciclistas que viajam com a bike</li>
+            <p id="mensagem"></p>
         </ul>
 
         <br><p>▶<a href="informacoes.html"><b>2º etapa:</b></a> <b> preencher suas informações e as informações da sua bike</b></p>
