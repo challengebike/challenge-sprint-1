@@ -13,6 +13,10 @@ p {
     font-family: 'Roboto', sans-serif, calibri, arial;
 }
 
+a {
+    font-family: 'Roboto';
+}
+
 h1 {
     background-color: #3664c1;
     color: white;
