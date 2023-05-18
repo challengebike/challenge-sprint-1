@@ -1,5 +1,13 @@
+@import url("./cabecalho.css");
+@import url("./rodape.css");
+@import url("./layout.css");
+
 @import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap%27);
 @import url(https://fonts.googleapis.com/css2?family=Bitter:wght@500&display=swap%27);
+
+html {
+    font-size: 62.7%;
+}
 
 body {
     background-color: #fcf1d7;
@@ -13,8 +21,8 @@ p {
     font-family: 'Roboto', sans-serif, calibri, arial;
 }
 
-a {
-    font-family: 'Roboto';
+label {
+    font-family: 'Roboto', sans-serif, calibri, arial;
 }
 
 h1 {
@@ -45,6 +53,10 @@ li {
     font-size: 20px;
 }
 
+a {
+    font-family: 'Roboto';
+}
+
 img {
     background-color: black;
     max-width: 800px;
@@ -55,7 +67,3 @@ img {
     display: block;
     border-radius: 10%;
 } 
-
-footer {
-    font-size: 17px;
-}
