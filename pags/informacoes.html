@@ -11,8 +11,8 @@
     <body>
         <h1>Technobike</h1>
         <h2>Informações</h2>
-        <p>Mande aqui as informações referentes a sua bike: </p>
-        <div>
+        <p>▶ Mande aqui as informações referentes a sua bike: </p>
+        <div class="forms">
             <form action="/dados" method="get" onsubmit="return true">
                 <fieldset>
                     <div>
@@ -24,7 +24,7 @@
                         <input type="number" name="numserie" id="idNumSerie" required placeholder="Número de série">
                     </div>
                     <div>
-                        <label for="idCor">Cor da bike::</label>
+                        <label for="idCor">Cor da bike:</label>
                         <input type="text" name="txtcor" id="idCor" required placeholder="Cor da bike">
                     </div>
                     <div>
@@ -40,15 +40,15 @@
                         <input type="number" name="valoraces" id="idValorAces" required placeholder="Valor dos acessórios da bike">
                     </div>
                     <div>
-                        <input type="submit" value="Enviar">
+                        <input class="enviar" type="submit" value="Enviar">
                     </div>
                 </fieldset>
             </form>
         </div>
 
-        <p>Preencha aqui as suas informações: </p>
+        <p>▶ Preencha aqui as suas informações: </p>
 
-        <div>
+        <div class="forms">
             <form action="/dados" method="get" onsubmit="return true">
                 <fieldset>
                     <div>
@@ -72,14 +72,14 @@
                         <input type="tel" name="telefone" id="idTelefone" required placeholder="Telefone">
                     </div>
                     <div>
-                        <input type="submit" value="Enviar">
+                        <input class="enviar" type="submit" value="Enviar">
                     </div>
                 </fieldset>
             </form>
         </div>
         
         <br>
-        <div>
+        <div class="forms">
             <form action="/dados" method="get" onsubmit="return true">
                 <fieldset>
                     <div>
@@ -115,7 +115,7 @@
                         <input type="text" name="txtpais" id="idPais" required placeholder="Pais">
                     </div>
                     <div>
-                        <input type="submit" value="Enviar">
+                        <input class="enviar" type="submit" value="Enviar">
                     </div>
                 </fieldset>
             </form>
