@@ -5,25 +5,125 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Simulação de cadastro</title>
-        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/estilo.css">
     </head>
 
     <body>
-        <h1>Tecnobike</h1>
+        <h1>Technobike</h1>
         <h2>Informações</h2>
-        <p>Mande aqui as informações e/ou documentos referentes a sua bike: </p>
-        <ul>
-            <li>Número de série: </li>
-            <li>Valor da bike: </li>
-        </ul>
-        <p>Preencha aqui as suas informações e/ou documentos: </p>
-        <ul>
-            <li>Número do RG ou CNH: </li>
-            <li>Número do CPF: </li>
-            <li>Endereço: </li>
-        </ul>
-        <p><b> ▶ Ok, agora </b><a href="vistoria.html"> clique aqui</a> <b> para enviar as fotos da sua bike para a vistoria.</b></p>
+        <p>▶ Mande aqui as informações referentes a sua bike: </p>
+        <div class="forms">
+            <form action="/dados" method="get" onsubmit="return true">
+                <fieldset>
+                    <div>
+                        <label for="idModelo">Modelo da bike:</label>
+                        <input type="text" name="txtmodelo" id="idModelo" required placeholder="Modelo da bike">
+                    </div>
+                    <div>
+                        <label for="idNumSerie">Número de série:</label>
+                        <input type="number" name="numserie" id="idNumSerie" required placeholder="Número de série">
+                    </div>
+                    <div>
+                        <label for="idCor">Cor da bike:</label>
+                        <input type="text" name="txtcor" id="idCor" required placeholder="Cor da bike">
+                    </div>
+                    <div>
+                        <label for="idNota">Nota fiscal:</label>
+                        <input type="number" name="numnota" id="idNota" required placeholder="Número da nota fiscal">
+                    </div>
+                    <div>
+                        <label for="idValorBike">Valor da bike:</label>
+                        <input type="number" name="valorbike" id="idValorBike" required placeholder="Valor da bike">
+                    </div>
+                    <div>
+                        <label for="idValorAces">Valor dos acessórios da bike:</label>
+                        <input type="number" name="valoraces" id="idValorAces" required placeholder="Valor dos acessórios da bike">
+                    </div>
+                    <div>
+                        <input class="enviar" type="submit" value="Enviar">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+
+        <p>▶ Preencha aqui as suas informações: </p>
+
+        <div class="forms">
+            <form action="/dados" method="get" onsubmit="return true">
+                <fieldset>
+                    <div>
+                        <label for="idNome">Nome:</label>
+                        <input type="text" name="txtnome" id="idNome" required placeholder="Nome completo">
+                    </div>
+                    <div>
+                        <label for="idIdent">Número do RG ou CNH:</label>
+                        <input type="number" name="numident" id="idIdent" required placeholder="Número do RG ou CNH">
+                    </div>
+                    <div>
+                        <label for="idCpf">Número do CPF:</label>
+                        <input type="number" name="numcpf" id="idCpf" required placeholder="Número do CPF">
+                    </div>
+                    <div>
+                        <label for="idEmail">E-mail:</label>
+                        <input type="email" name="txtemail" id="idEmail" required placeholder="E-mail">
+                    </div>
+                    <div>
+                        <label for="idTelefone">Telefone:</label>
+                        <input type="tel" name="telefone" id="idTelefone" required placeholder="Telefone">
+                    </div>
+                    <div>
+                        <input class="enviar" type="submit" value="Enviar">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        
+        <br>
+        <div class="forms">
+            <form action="/dados" method="get" onsubmit="return true">
+                <fieldset>
+                    <div>
+                        <label for="idCep">CEP:</label>
+                        <input type="number" name="numcep" id="idCep" required placeholder="CEP">
+                    </div>
+                    <div>
+                        <label for="idRua">Rua:</label>
+                        <input type="text" name="txtrua" id="idRua" required placeholder="Rua">
+                    </div>
+                    <div>
+                        <label for="idNumCasa">Número da casa:</label>
+                        <input type="number" name="numcasa" id="idNumCasa" required placeholder="Número da casa">
+                    </div>
+                    <div>
+                        <label for="idComplem">Complemento:</label>
+                        <input type="number" name="numComplem" id="idComplem" required placeholder="Complemento">
+                    </div>
+                    <div>
+                        <label for="idBairro">Bairro:</label>
+                        <input type="text" name="txtbairro" id="idBairro" required placeholder="Bairro">
+                    </div>
+                    <div>
+                        <label for="idCidade">Cidade:</label>
+                        <input type="text" name="txtcidade" id="idCidade" required placeholder="Cidade">
+                    </div>
+                    <div>
+                        <label for="idEstado">Estado:</label>
+                        <input type="text" name="txtestado" id="idEstado" required placeholder="Estado">
+                    </div>
+                    <div>
+                        <label for="idPais">País:</label>
+                        <input type="text" name="txtpais" id="idPais" required placeholder="Pais">
+                    </div>
+                    <div>
+                        <input class="enviar" type="submit" value="Enviar">
+                    </div>
+                </fieldset>
+            </form>
+
+        <p>▶<a href="vistoria.html"> <b>3º etapa:</b></a> <b> enviar as fotos da sua bike para a vistoria.</b></p>
     
-        <footer><a href="../index.html">-----Quero voltar para a página inicial</a></footer>
+        <footer>
+            <a href="../index.html">● Quero voltar para a página inicial</a>
+        </footer>
     </body>
 </html> 

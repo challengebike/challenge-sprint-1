@@ -1,0 +1,22 @@
+.botao {
+    font-size: 15px;
+    display: inline-block;
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.forms {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.enviar {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.conferir {
+    font-size: 15px;
+    width: 200px;
+    margin-left: 25px;
+}
