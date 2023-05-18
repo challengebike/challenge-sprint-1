@@ -57,7 +57,7 @@ a {
     font-family: 'Roboto';
 }
 
-img {
+.imgformat {
     background-color: black;
     max-width: 800px;
     max-height: 500px;
@@ -66,4 +66,23 @@ img {
     margin: auto;
     display: block;
     border-radius: 10%;
-} 
+}
+
+.org {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 75vw;
+    margin-left: 3%;
+}
+
+.organograma {
+    max-width: 200px;
+    max-height: 200px;
+    height: auto;
+    width: auto;
+    margin: auto;
+    border-radius: 10%;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
