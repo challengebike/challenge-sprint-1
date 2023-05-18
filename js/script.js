@@ -17,3 +17,13 @@ function mensagem(tipoSeguro) {
         mensagemElement.innerHTML = "▶ Seguro selecionado para ciclistas que viajam com a bike";
     }
 }
+
+function mensagem(statusVistoria) {
+    let mensagemElement = document.getElementById("mensagem");
+    mensagemElement.innerHTML = "▶ Aqui será mostrado o atual status da vistoria do cliente com base nas análises da IA.";
+}
+
+function mensagem(apolice) {
+    let mensagemElement = document.getElementById("mensagem");
+    mensagemElement.innerHTML = "▶ Sua apólice foi enviada para o e-mail cadastrado no processo de vistoria. Acesse e confira. Nela constará seus dados pessoais, os dados de sua bike, o tipo de seguro escolhido por você e que você foi aprovado no processo de vistoria. Caso concorde com o que está sendo dito, assine sua apólice e envie de volta pelo mesmo e-mail que enviou a apólice para você";
+}
