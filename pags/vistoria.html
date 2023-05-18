@@ -9,31 +9,80 @@
     </head>
 
     <body>
-        <h1>Technobike</h1>
-        <h2>Vistoria</h2>
-        <br><p><b>▶ Fotos:</b> envie fotos dos pontos chave da sua bike listados abaixo:</p>
-        <ul> 
-            <li> (x) Foto da bike inteira de lado</li>
-            <li> (x) Foto do número de série</li>
-            <li> (x) Foto da roda</li>
-            <li> (x) Foto dos freios</li>
-            <li> (x) Foto do guidão</li>
-            <li> (x) Foto dos pedais</li>
-            <li> (x) Foto sua com a bike</li>
-            <li> (x) Foto da bike de frente</li>
-            <li> (x) Foto dos acessórios (se for visível)</li>
-        </ul>
+        <h1>Vistoria</h1>
+        <p>▶ <b>Fotos:</b> envie fotos dos pontos chaves da sua bike listados abaixo:</p>
 
-        <br><p><b>▶ Vídeos:</b> envie vídeos dos pontos chave da sua bike listados abaixo:</p>
-        <ul>
-            <li>Vídeo mostrando a bike completa</li>
-            <li>Vídeo mostrando com mais ênfase cada ponto chave que foi tirado foto</li>
-        </ul>
-        
-        <br><p><b>ATENÇÃO: </b>para garantirmos a integridade das informações, não é possível realizar upload das fotos e vídeos da bike - elas devem ser tiradas no momento do envio. Caso você não esteja com ela nesse momento, fique tranquilo, suas informações estão salvas e você pode continuar mais tarde.</p>
+        <br>
+        <div>
+            <form action="/dados" method="get" enctype="multipart/form-data">
+                <fieldset>
+                    <div>
+                        <label for="idFoto1"><b>Foto da bike inteira de lado:</b></label>
+                        <input type="file" name="imgbike" id="idFoto1" required>
+                    </div>
+                    <br><div>
+                        <label for="idFoto2"><b>Foto do número de série:</b></label>
+                        <input type="file" name="imgserie" id="idFoto2" required>
+                    </div>
+                    <br><div>
+                        <label for="idFoto3"><b>Foto da roda:</b></label>
+                        <input type="file" name="imgroda" id="idFoto3" required>
+                    </div>
+                    <br><div>
+                        <label for="idFoto4"><b>Foto dos freios:</b></label>
+                        <input type="file" name="imgfreio" id="idFoto4" required>
+                    </div>
+                    <br><div>
+                        <label for="idFoto5"><b>Foto do guidão:</b></label>
+                        <input type="file" name="imgguidao" id="idFoto5" required>
+                    </div>
+                    <br><div>
+                        <label for="idFoto6"><b>Foto dos pedais:</b></label>
+                        <input type="file" name="imgpedal" id="idFoto6" required>
+                    </div>
+                    <br><div>
+                        <label for="idFoto7"><b>Foto sua com a bike:</b></label>
+                        <input type="file" name="imgpessoa" id="idFoto7" required>
+                    </div>
+                    <br><div>
+                        <label for="idFoto8"><b>Foto da bike de frente:</b></label>
+                        <input type="file" name="imgfrente" id="idFoto8" required>
+                    </div>
+                    <br><div>
+                        <label for="idFoto9"><b>Foto dos acessórios (se for visível):</b></label>
+                        <input type="file" name="imgaces" id="idFoto9" required>
+                    </div>
+                    <br><div>
+                        <input type="submit" value="Enviar">
+                    </div>
+                </fieldset>
+            </form>
+
+        <p>▶ <b>Vídeos:</b> envie vídeos dos pontos chaves da sua bike listados abaixo:</p>
+
+        <br>
+        <div>
+            <form action="/dados" method="get" enctype="multipart/form-data">
+                <fieldset>
+                    <div>
+                        <label for="idVideo1"><b>Vídeo mostrando a bike completa:</b></label>
+                        <input type="file" name="videobike" id="idVideo1" required>
+                    </div>
+                    <br><div>
+                        <label for="idVideo2"><b>Vídeo mostrando com mais ênfase cada ponto chave que foi tirado foto:</b></label>
+                        <input type="file" name="videopontos" id="idVideo2" required>
+                    </div>
+                    <br><div>
+                        <input type="submit" value="Enviar">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+
+        <p>▶<a href="validacaodavistoria.html"> <b>4º etapa:</b></a> <b> conferir status da vistoria.</b></p>
+
+        <p>Observação: neste momento, como ainda não aprendemos a abrir a câmera e capturar a imagem, colocamos temporariamente a opção do formulário de pegar a foto da galeria - apenas para simulação.</p>
     
-        <p>▶<a href="validacaodavistoria.html"><b> 4º etapa:</b></a> <b>Status da vistoria</b></p>
-        
         <footer><a href="../index.html">-----Quero voltar para a página inicial</a></footer>
     </body>
 </html> 
