@@ -1,6 +1,11 @@
 @import url("./cabecalho.css");
 @import url("./rodape.css");
 @import url("./layout.css");
+@import url("./breakpoint-1200.css");
+@import url("./breakpoint-max600.css");
+@import url("./breakpoint-min600.css");
+@import url("./breakpoint-min768.css");
+@import url("./breakpoint-min992.css");
 
 @import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap%27);
 @import url(https://fonts.googleapis.com/css2?family=Bitter:wght@500&display=swap%27);

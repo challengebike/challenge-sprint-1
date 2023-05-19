@@ -1,3 +1,136 @@
 @media (min-width: 1200px) {
-    
+    html {
+        position: relative;
+        width: 1200px;
+        height: 476px;
+    }
+
+    .cabecalho {
+        position: absolute;
+        width: 1200px;
+        height: 72px;
+        left: 0px;
+        top: 0px;
+        background: #3664C1;
+    }
+
+    .cabecalho a {
+        position: absolute;
+        width: 214px;
+        height: 24px;
+        left: 23px;
+        top: 29px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+
+        text-decoration-line: underline;
+
+        color: #FFFFFF;
+    }
+
+    p {
+        position: absolute;
+        width: 1153px;
+        height: 48px;
+        left: 23px;
+        top: 151px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 16px;
+
+        color: #000000;
+    }
+
+    h1 {
+        position: absolute;
+        width: 1154px;
+        height: 52px;
+        left: 23px;
+        top: 91px;
+
+        background: #3664C1;
+        border-radius: 5px;
+
+        position: absolute;
+        width: 108px;
+        height: 24px;
+        left: 38px;
+        top: 105px;
+
+        font-family: 'Bitter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+
+
+        color: #FFFFFF;
+    }
+
+    h2 {
+        position: absolute;
+        width: 1154px;
+        height: 52px;
+        left: 23px;
+        top: 210px;
+
+        background: #3664C1;
+        border-radius: 5px;
+
+        position: absolute;
+        width: 238px;
+        height: 24px;
+        left: 38px;
+        top: 224px;
+
+        font-family: 'Bitter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+
+        color: #FFFFFF;
+    }
+
+    h3 {
+        position: absolute;
+        width: 195px;
+        height: 18px;
+        left: 23px;
+        top: 380px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18px;
+
+        text-decoration-line: underline;
+
+        color: #000000;
+    }
+
+    li {
+        position: absolute;
+        width: 163px;
+        height: 96px;
+        left: 23px;
+        top: 279px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 16px;
+        text-decoration-line: underline;
+
+        color: #000000;
+    }
 }
