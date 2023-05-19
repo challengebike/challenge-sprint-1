@@ -1,3 +1,234 @@
 @media (min-width: 1200px) {
-    
+
+    /* 1200 */
+
+    position: relative;
+    width: 1200px;
+    height: 476px;
+
+
+
+    /* page toda*/
+
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+
+    background: #FCF1D7;
+
+
+    /* cabecalho */
+
+    position: absolute;
+    width: 1200px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+
+    background: #3664C1;
+
+
+    /* barra faca uma simulacao aqui */
+
+    position: absolute;
+    width: 1154px;
+    height: 52px;
+    left: 23px;
+    top: 210px;
+
+    background: #3664C1;
+    border-radius: 5px;
+
+
+    /* barra technobike */
+
+    position: absolute;
+    width: 1154px;
+    height: 52px;
+    left: 23px;
+    top: 91px;
+
+    background: #3664C1;
+    border-radius: 5px;
+
+
+    /* Detalhes da solução */
+
+    position: absolute;
+    width: 214px;
+    height: 24px;
+    left: 23px;
+    top: 29px;
+
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+
+
+
+    /* Totalmente virtual */
+
+    position: absolute;
+    width: 203px;
+    height: 24px;
+    left: 342px;
+    top: 29px;
+
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+
+
+
+    /* Simulação */
+
+    position: absolute;
+    width: 128px;
+    height: 24px;
+    left: 661px;
+    top: 29px;
+
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+
+
+
+    /* Organograma das páginas */
+
+    position: absolute;
+    width: 273px;
+    height: 24px;
+    left: 904px;
+    top: 29px;
+
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+
+
+
+    /* Simulação Tipo do seguro Informações Vistoria Validação da vistoria Apólice */
+
+    position: absolute;
+    width: 163px;
+    height: 96px;
+    left: 23px;
+    top: 279px;
+
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+
+    color: #000000;
+
+
+
+    /* Conheça nossos integrantes */
+
+    position: absolute;
+    width: 195px;
+    height: 18px;
+    left: 23px;
+    top: 380px;
+
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+
+
+
+    /* Technobike */
+
+    position: absolute;
+    width: 108px;
+    height: 24px;
+    left: 38px;
+    top: 105px;
+
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+
+
+    /* Faça uma simulação aqui: */
+
+    position: absolute;
+    width: 238px;
+    height: 24px;
+    left: 38px;
+    top: 224px;
+
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+
+
+    /* Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic ipsum, harum distinctio consectetur facere nulla numquam porro fugit reedit eos eveniet aspernatur perspiciatis aliquam ratione iste sint sunt, cum ipsa accusamus rerum reiciendis beatae magnam. agnam eligen quisquam et nam fugiat dolorum. Hic ipsum, harum distinctio consectetur facere nulla numquam porro fugit reedit eos eveniet aspernatur perspiciatis aliquam ratione iste nam et. */
+
+    position: absolute;
+    width: 1153px;
+    height: 48px;
+    left: 23px;
+    top: 151px;
+
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+
+    color: #000000;
+
+
+
+    /* detalhes organograma totalmente virtual */
+
+    position: absolute;
+    width: 138px;
+    height: 51px;
+    left: 23px;
+    top: 415px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration-line: underline;
+
+    color: #000000;
+
+
 }

@@ -1,3 +1,239 @@
 @media (min-width: 768px) {
     
+        /* 768 */
+
+    position: relative;
+    width: 768px;
+    height: 476px;
+
+
+
+    /* Page inteira */
+
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+
+    background: #FCF1D7;
+
+
+    /* cabecalho */
+
+    position: absolute;
+    width: 768px;
+    height: 76px;
+    left: 0px;
+    top: 0px;
+
+    background: #3664C1;
+
+
+    /* barra da technobike */
+
+    position: absolute;
+    width: 739px;
+    height: 39px;
+    left: 15px;
+    top: 96px;
+
+    background: #3664C1;
+    border-radius: 5px;
+
+
+    /* barra de faca uma simulacao aqui */
+
+    position: absolute;
+    width: 739px;
+    height: 39px;
+    left: 15px;
+    top: 237px;
+
+    background: #3664C1;
+    border-radius: 5px;
+
+
+    /* Detalhes da solução */
+
+    position: absolute;
+    width: 128px;
+    height: 14px;
+    left: 22px;
+    top: 31px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    
+
+
+
+    /* Totalmente virtual */
+
+    position: absolute;
+    width: 118px;
+    height: 14px;
+    left: 216px;
+    top: 31px;
+
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration-line: underline;
+
+    
+
+
+
+    /* Simulação */
+
+    position: absolute;
+    width: 77px;
+    height: 14px;
+    left: 416px;
+    top: 31px;
+
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration-line: underline;
+
+    
+
+
+
+    /* Organograma das páginas */
+
+    position: absolute;
+    width: 159px;
+    height: 14px;
+    left: 575px;
+    top: 31px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    
+
+
+
+    /* Technobike */
+
+    position: absolute;
+    width: 76px;
+    height: 17px;
+    left: 22px;
+    top: 108px;
+
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    
+
+
+
+    /* Faça uma simulação aqui: */
+
+    position: absolute;
+    width: 166px;
+    height: 17px;
+    left: 22px;
+    top: 248px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    
+
+
+
+    /* Conheça nossos integrantes */
+
+    position: absolute;
+    width: 178px;
+    height: 16px;
+    left: 22px;
+    top: 390px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration-line: underline;
+
+    color: #000000;
+
+
+
+    /* Simulação Tipo do seguro Informações Vistoria Validação da vistoria Apólice */
+
+    position: absolute;
+    width: 148px;
+    height: 84px;
+    left: 22px;
+    top: 291px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration-line: underline;
+
+    color: #000000;
+
+
+
+    /* Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis illum enim quam! Omnis quisquam repudiandae, unde vel, nostrum praesentium tenetur porro delectus quia incidunt soluta necessitatibus placeat. Vero sed dicta ipsum officia error voluptatum nobis expedita nisi harum autem. Quisquam a exercitationem, ullam cupiditate obcaecati ipsum voluptas itaque dolores? Deleniti. */
+
+    position: absolute;
+    width: 739px;
+    height: 64px;
+    left: 15px;
+    top: 149px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #000000;
+
+
+
+    /* detalhes organograma totalmente virtual */
+
+    position: absolute;
+    width: 138px;
+    height: 51px;
+    left: 22px;
+    top: 414px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration-line: underline;
+
+    color: #000000;
+
+
 }
