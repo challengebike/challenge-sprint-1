@@ -1,18 +1,15 @@
 @media (min-width: 992px) {
     
 /* 992 */
-html {    
+body {    
     position: relative;
     width: 992px;
     height: 476px;
 
     /* Página inteira */
     position: absolute;
-    /* left: 0px;
-    right: 0px; */
     top: -5px;
     bottom: 5px;
-
     background: #FCF1D7;
 }
 
@@ -21,8 +18,6 @@ html {
     position: absolute;
     width: 992px;
     height: 67px;
-    /* left: 0px;
-    top: 0px; */
     background: #3664C1;
 }
 
@@ -33,7 +28,6 @@ h1 {
     height: 40px;
     left: 30px;
     top: 84px;
-
     background: #3664C1;
     border-radius: 5px;
 
@@ -45,30 +39,29 @@ h1 {
     top: 92px;
 
     font-family: 'Bitter';
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
-
     color: #FFFFFF;
 }
 
-/* Simulação Tipo do seguro Informações Vistoria Validação da vistoria Apólice */
-li a {
+/* Faça uma simulação aqui */
+/* Detalhes da solução */
+/* Simulação */
+/* Organograma das páginas */
+/* Totalmente virtual */
+h2 {
     position: absolute;
-    width: 163px;
-    height: 96px;
-    left: 30px;
-    top: 286px;
+    background: #3664C1;
+    border-radius: 10px;
 
-    font-family: 'Bitter';
+    font-family: 'Bitter', 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 13px;
-    line-height: 16px;
-    text-decoration-line: underline;
-
-    color: #000000;
+    font-size: 26px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-indent: 20px;
 }
 
 /* Conheça nossos integrantes */
@@ -88,101 +81,6 @@ h3 {
     color: #000000;
 }
 
-/* Barra faça uma simulação aqui */
-h2 {
-    position: absolute;
-    width: 946px;
-    height: 40px;
-    left: 30px;
-    top: 235px;
-
-    background: #3664C1;
-    border-radius: 5px;
-
-/* Faça uma simulação aqui: */
-    position: absolute;
-    width: 238px;
-    height: 24px;
-    left: 42px;
-    top: 243px;
-    
-    font-family: 'Bitter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    
-    color: #FFFFFF;
-}
-
-/* Detalhes da solução */
-h2 {
-    position: absolute;
-    width: 214px;
-    height: 24px;
-    /* left: 30px; */
-    top: 25px;
-
-    font-family: 'Bitter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-
-    color: #FFFFFF;
-}
-
-/* Simulação */
-h2 {
-    position: absolute;
-    width: 128px;
-    height: 24px;
-    left: 525px;
-    top: 25px;
-
-    font-family: 'Bitter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-
-    color: #FFFFFF;
-}
-
-/* Organograma das páginas */
-h2 {
-    position: absolute;
-    width: 273px;
-    height: 24px;
-    left: 696px;
-    top: 25px;
-
-    font-family: 'Bitter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-
-    color: #FFFFFF;
-}
-
-/* Totalmente virtual */
-h2 {
-    position: absolute;
-    width: 203px;
-    height: 24px;
-    left: 280px;
-    top: 25px;
-
-    font-family: 'Bitter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-
-    color: #FFFFFF;
-}
-
 /* Textos */
 p {
     position: absolute;
@@ -191,11 +89,29 @@ p {
     left: 42px;
     top: 132px;
 
-    font-family: 'Bitter';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
     line-height: 16px;
+
+    color: #000000;
+}
+
+/* Simulação Tipo do seguro Informações Vistoria Validação da vistoria Apólice */
+li a {
+    position: absolute;
+    width: 163px;
+    height: 96px;
+    left: 30px;
+    top: 286px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-decoration-line: underline;
 
     color: #000000;
 }
@@ -208,7 +124,7 @@ nav a {
     left: 27px;
     top: 417px;
 
-    font-family: 'Inter';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
