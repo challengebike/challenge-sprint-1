@@ -1,157 +1,115 @@
 @media (max-width: 600px) {
 
-    .html{
+/* 600 */
+.body {    
     position: relative;
     width: 320px;
     height: 476px;
-    }
+
+    /* Página inteira */
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: #FCF1D7;
+}
+
+/* Cabecalho */
+.cabecalho {
+    position: absolute;
+    width: 321px;
+    height: 56px;
+    left: 0px;
+    top: 0px;
+    background: #3664C1;
+}
 
 
+/* Barra escrito technobike */
+h1 {
+    position: absolute;
+    width: 297px;
+    height: 43px;
+    left: 11px;
+    top: 82px;
+    background: #3664C1;
+    border-radius: 5px;
 
-    /* Corpo da page */
-    .body{
-        position: absolute;
-        left: 0px;
-        right: 0px;
-        top: 0px;
-        bottom: 0px;
-        background: #FCF1D7;
-    }
-
-
-
-
-    /* Cabecalho */
-    .cabecalho {
-        position: absolute;
-        width: 321px;
-        height: 56px;
-        left: 0px;
-        top: 0px;
-        background: #3664C1;
-    }
-
-
-    /* Barra escrito technobike */
-    .h1{
-        position: absolute;
-        width: 297px;
-        height: 43px;
-        left: 11px;
-        top: 82px;
-        background: #3664C1;
-        border-radius: 5px;
-    }
-
-
-/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam porro animi corrupti possimus deleniti commodi. */
-    .p{
-        position: absolute;
-        width: 281px;
-        height: 50px;
-        left: 15px;
-        top: 141px;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 16px;
-        color: #000000;
-    }
-
-
-
-/* Segunda barra escrita faca uma simulacao aqui*/
-    .h2{
-        position: absolute;
-        width: 297px;
-        height: 43px;
-        left: 11px;
-        top: 208px;
-        background: #3664C1;
-        border-radius: 5px;
-    }
-
-
-
-/* Conheça nossos integrantes */
-    .a{
-        position: absolute;
-        width: 178px;
-        height: 16px;
-        left: 11px;
-        top: 389px;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 16px;
-        text-decoration-line: underline;
-        
-        color: #000000;
-    }
-
-
-
+    /* Technobike */
+    position: absolute;
+    width: 76px;
+    height: 17px;
+    left: 15px;
+    top: 95px; 
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
 
 /* Simulação Tipo do seguro Informações Vistoria Validação da vistoria Apólice */
-    .ul{
-        position: absolute;
-        width: 172px;
-        height: 96px;
-        left: 11px;
-        top: 267px;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 16px;
-        text-decoration-line: underline;
-        color: #000000;
-    }
+li a {
+    position: absolute;
+    width: 172px;
+    height: 96px;
+    left: 11px;
+    top: 267px;
 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration-line: underline;
+    color: #000000;
+}
 
-
-
-/* Faça uma simulação aqui: */
-    .h2{
-        position: absolute;
-        width: 167px;
-        height: 17px;
-        left: 15px;
-        top: 220px;
-        font-family: 'Bitter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 17px;
-    }
-
-
-
-
-
-/* Technobike */
-    .h1{
-        position: absolute;
-        width: 76px;
-        height: 17px;
-        left: 15px;
-        top: 95px; 
-        font-family: 'Bitter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 17px;
-    }
-
+/* Conheça nossos integrantes */
+h3 {
+    position: absolute;
+    width: 178px;
+    height: 16px;
+    left: 11px;
+    top: 389px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration-line: underline;
     
+    color: #000000;
+}
 
+
+/* Barra escrito faça uma simulação aqui*/
+h2 {
+    position: absolute;
+    width: 297px;
+    height: 43px;
+    left: 11px;
+    top: 208px;
+    background: #3664C1;
+    border-radius: 5px;
+
+    /* Faça uma simulação aqui: */
+    position: absolute;
+    width: 167px;
+    height: 17px;
+    left: 15px;
+    top: 220px;
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
 
 
 /* Detalhes da solução */
-
-.a{
+h2 {
     position: absolute;
     width: 65px;
     height: 7px;
@@ -167,68 +125,71 @@
     color: #FCF1D7;
 }
 
-
-
-/* Totalmente virtual */
-
-    .a{
-        position: absolute;
-        width: 61px;
-        height: 7px;
-        left: 94px;
-        top: 25px;
-        font-family: 'Bitter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 6px;
-        line-height: 7px;
-        text-decoration-line: underline;
-        color: #FCF1D7;
-    }
-
-
-
-
 /* Simulação */
-    .a{
-        position: absolute;
-        width: 39px;
-        height: 7px;
-        left: 173px;
-        top: 25px;
-        font-family: 'Bitter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 6px;
-        line-height: 7px;
-        text-decoration-line: underline;
-        color: #FCF1D7;
-    }
-
-
-
+h2 {
+    position: absolute;
+    width: 39px;
+    height: 7px;
+    left: 173px;
+    top: 25px;
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6px;
+    line-height: 7px;
+    text-decoration-line: underline;
+    color: #FCF1D7;
+}
 
 /* Organograma das páginas */
-    .a {
-        position: absolute;
-        width: 82px;
-        height: 14px;
-        left: 230px;
-        top: 25px;
-        font-family: 'Bitter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 6px;
-        line-height: 7px;
-        text-decoration-line: underline;
-        color: #FCF1D7;
-    }
+h2 {
+    position: absolute;
+    width: 82px;
+    height: 14px;
+    left: 230px;
+    top: 25px;
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6px;
+    line-height: 7px;
+    text-decoration-line: underline;
+    color: #FCF1D7;
+}
 
+/* Totalmente virtual */
+h2 {
+    position: absolute;
+    width: 61px;
+    height: 7px;
+    left: 94px;
+    top: 25px;
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6px;
+    line-height: 7px;
+    text-decoration-line: underline;
+    color: #FCF1D7;
+}
 
-
-
-/* detalhes organograma totalmente virtual */
-    .a{
+/* Textos */
+p {
+    position: absolute;
+    width: 281px;
+    height: 50px;
+    left: 15px;
+    top: 141px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+    
+/* Detalhes organograma totalmente virtual */
+nav a {
         position: absolute;
         width: 138px;
         height: 51px;
@@ -242,6 +203,4 @@
         text-decoration-line: underline;
         color: #000000;
     }
-
 }
-

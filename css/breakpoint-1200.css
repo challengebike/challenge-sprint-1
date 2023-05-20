@@ -1,15 +1,12 @@
 @media (min-width: 1200px) {
 
-    /* 1200 */
-
+/* 1200 */
+.body {
     position: relative;
     width: 1200px;
     height: 476px;
 
-
-
-    /* page toda*/
-
+    /* Página inteira*/
     position: absolute;
     left: 0px;
     right: 0px;
@@ -17,10 +14,10 @@
     bottom: 0px;
 
     background: #FCF1D7;
+}
 
-
-    /* cabecalho */
-
+/* Cabeçalho */
+.cabecalho {
     position: absolute;
     width: 1200px;
     height: 72px;
@@ -28,22 +25,10 @@
     top: 0px;
 
     background: #3664C1;
+}
 
-
-    /* barra faca uma simulacao aqui */
-
-    position: absolute;
-    width: 1154px;
-    height: 52px;
-    left: 23px;
-    top: 210px;
-
-    background: #3664C1;
-    border-radius: 5px;
-
-
-    /* barra technobike */
-
+/* Barra escrito Technobike */
+h1 {
     position: absolute;
     width: 1154px;
     height: 52px;
@@ -52,82 +37,24 @@
 
     background: #3664C1;
     border-radius: 5px;
-
-
-    /* Detalhes da solução */
-
+    
+    /* Technobike */
     position: absolute;
-    width: 214px;
+    width: 108px;
     height: 24px;
-    left: 23px;
-    top: 29px;
+    left: 38px;
+    top: 105px;
 
     font-family: 'Bitter';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
-
     color: #FFFFFF;
+}
 
-
-
-    /* Totalmente virtual */
-
-    position: absolute;
-    width: 203px;
-    height: 24px;
-    left: 342px;
-    top: 29px;
-
-    font-family: 'Bitter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-
-    color: #FFFFFF;
-
-
-
-    /* Simulação */
-
-    position: absolute;
-    width: 128px;
-    height: 24px;
-    left: 661px;
-    top: 29px;
-
-    font-family: 'Bitter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-
-    color: #FFFFFF;
-
-
-
-    /* Organograma das páginas */
-
-    position: absolute;
-    width: 273px;
-    height: 24px;
-    left: 904px;
-    top: 29px;
-
-    font-family: 'Bitter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-
-    color: #FFFFFF;
-
-
-
-    /* Simulação Tipo do seguro Informações Vistoria Validação da vistoria Apólice */
-
+/* Simulação Tipo do seguro Informações Vistoria Validação da vistoria Apólice */
+li a {
     position: absolute;
     width: 163px;
     height: 96px;
@@ -141,11 +68,10 @@
     line-height: 16px;
 
     color: #000000;
+}
 
-
-
-    /* Conheça nossos integrantes */
-
+/* Conheça nossos integrantes */
+h3 {
     position: absolute;
     width: 195px;
     height: 18px;
@@ -158,45 +84,105 @@
     font-size: 15px;
     line-height: 18px;
     color: #000000;
+}
 
 
-
-    /* Technobike */
-
+/* Barra escrito faça uma simulação aqui */
+h2 {
     position: absolute;
-    width: 108px;
-    height: 24px;
-    left: 38px;
-    top: 105px;
+    width: 1154px;
+    height: 52px;
+    left: 23px;
+    top: 210px;
 
-    font-family: 'Bitter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    color: #FFFFFF;
-
-
-
+    background: #3664C1;
+    border-radius: 5px;
+    
     /* Faça uma simulação aqui: */
-
     position: absolute;
     width: 238px;
     height: 24px;
     left: 38px;
     top: 224px;
-
+   
     font-family: 'Bitter';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
     color: #FFFFFF;
+}
 
+/* Detalhes da solução */
+h2 {
+    position: absolute;
+    width: 214px;
+    height: 24px;
+    left: 23px;
+    top: 29px;
 
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
 
-    /* Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic ipsum, harum distinctio consectetur facere nulla numquam porro fugit reedit eos eveniet aspernatur perspiciatis aliquam ratione iste sint sunt, cum ipsa accusamus rerum reiciendis beatae magnam. agnam eligen quisquam et nam fugiat dolorum. Hic ipsum, harum distinctio consectetur facere nulla numquam porro fugit reedit eos eveniet aspernatur perspiciatis aliquam ratione iste nam et. */
+    color: #FFFFFF;
+}
 
+/* Simulação */
+h2 {
+    position: absolute;
+    width: 128px;
+    height: 24px;
+    left: 661px;
+    top: 29px;
+
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+/* Organograma das páginas */
+h2 {
+   position: absolute;
+   width: 273px;
+   height: 24px;
+   left: 904px;
+   top: 29px;
+
+   font-family: 'Bitter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 24px;
+
+   color: #FFFFFF;
+}
+
+/* Totalmente virtual */
+h2 {
+    position: absolute;
+    width: 203px;
+    height: 24px;
+    left: 342px;
+    top: 29px;
+
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+/* Textos */
+p {
     position: absolute;
     width: 1153px;
     height: 48px;
@@ -210,11 +196,10 @@
     line-height: 16px;
 
     color: #000000;
+}
 
-
-
-    /* detalhes organograma totalmente virtual */
-
+/* Detalhes organograma totalmente virtual */
+nav a {
     position: absolute;
     width: 138px;
     height: 51px;
@@ -229,6 +214,5 @@
     text-decoration-line: underline;
 
     color: #000000;
-
-
+}
 }
