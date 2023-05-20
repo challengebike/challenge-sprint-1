@@ -1,38 +1,33 @@
 @media (min-width: 992px) {
     
-
-    /* 992 */
-
+/* 992 */
+html {    
     position: relative;
     width: 992px;
     height: 476px;
 
-
-
-    /* page inteira */
-
+    /* Página inteira */
     position: absolute;
-    left: 0px;
-    right: 0px;
+    /* left: 0px;
+    right: 0px; */
     top: -5px;
     bottom: 5px;
 
     background: #FCF1D7;
+}
 
-
-    /* cabecalho */
-
+/* Cabeçalho */
+.cabecalho {
     position: absolute;
     width: 992px;
     height: 67px;
-    left: 0px;
-    top: 0px;
-
+    /* left: 0px;
+    top: 0px; */
     background: #3664C1;
+}
 
-
-    /* barra technobike */
-
+/* Barra Technobike */
+h1 {
     position: absolute;
     width: 946px;
     height: 40px;
@@ -42,9 +37,24 @@
     background: #3664C1;
     border-radius: 5px;
 
+    /* Technobike */
+    position: absolute;
+    width: 108px;
+    height: 24px;
+    left: 42px;
+    top: 92px;
 
-    /* Simulação Tipo do seguro Informações Vistoria Validação da vistoria Apólice */
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
 
+    color: #FFFFFF;
+}
+
+/* Simulação Tipo do seguro Informações Vistoria Validação da vistoria Apólice */
+li a {
     position: absolute;
     width: 163px;
     height: 96px;
@@ -59,11 +69,10 @@
     text-decoration-line: underline;
 
     color: #000000;
+}
 
-
-
-    /* Conheça nossos integrantes */
-
+/* Conheça nossos integrantes */
+h3 {
     position: absolute;
     width: 169px;
     height: 16px;
@@ -77,11 +86,10 @@
     line-height: 16px;
 
     color: #000000;
+}
 
-
-
-    /* barra faca uma simulacao aqui */
-
+/* Barra faça uma simulação aqui */
+h2 {
     position: absolute;
     width: 946px;
     height: 40px;
@@ -91,49 +99,28 @@
     background: #3664C1;
     border-radius: 5px;
 
-
-    /* Technobike */
-
-    position: absolute;
-    width: 108px;
-    height: 24px;
-    left: 42px;
-    top: 92px;
-
-    font-family: 'Bitter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-
-    color: #FFFFFF;
-
-
-
-    /* Faça uma simulação aqui: */
-
+/* Faça uma simulação aqui: */
     position: absolute;
     width: 238px;
     height: 24px;
     left: 42px;
     top: 243px;
-
+    
     font-family: 'Bitter';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
-
+    
     color: #FFFFFF;
+}
 
-
-
-    /* Detalhes da solução */
-
+/* Detalhes da solução */
+h2 {
     position: absolute;
     width: 214px;
     height: 24px;
-    left: 30px;
+    /* left: 30px; */
     top: 25px;
 
     font-family: 'Bitter';
@@ -143,11 +130,10 @@
     line-height: 24px;
 
     color: #FFFFFF;
+}
 
-
-
-    /* Simulação */
-
+/* Simulação */
+h2 {
     position: absolute;
     width: 128px;
     height: 24px;
@@ -161,11 +147,10 @@
     line-height: 24px;
 
     color: #FFFFFF;
+}
 
-
-
-    /* Organograma das páginas */
-
+/* Organograma das páginas */
+h2 {
     position: absolute;
     width: 273px;
     height: 24px;
@@ -179,29 +164,10 @@
     line-height: 24px;
 
     color: #FFFFFF;
+}
 
-
-
-    /* Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores sequi accusantium at error fuga maxime, saepe eos officiis necessitatibus beatae soluta pariatur neque excepturi in a non expedita quam, corrupti possimus, laboriosam inventore eaque. Adipisci, saepe maiores cupiditate eaque quam porro sapiente molestias dicta in repellendus voluptatem obcaecati quidem a omnis fugit maxime possimus? Corrupti assumenda rem recusandae praesentium cumque! Repellat, dignissimos inventore modi ut, quibusdam quis quos veniam ex nesciunt optio laborum blanditiis nam, fugiat impedit error quasi beatae. Nesciunt pariatur obcaecati cumque adipisci assumenda iste laudantium sunt. Culpa, quidem quia. Corrupti repudiandae tempore amet, ipsam asperiores placeat delectus? */
-
-    position: absolute;
-    width: 919px;
-    height: 96px;
-    left: 42px;
-    top: 132px;
-
-    font-family: 'Bitter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 16px;
-
-    color: #000000;
-
-
-
-    /* Totalmente virtual */
-
+/* Totalmente virtual */
+h2 {
     position: absolute;
     width: 203px;
     height: 24px;
@@ -215,11 +181,27 @@
     line-height: 24px;
 
     color: #FFFFFF;
+}
 
+/* Textos */
+p {
+    position: absolute;
+    width: 919px;
+    height: 96px;
+    left: 42px;
+    top: 132px;
 
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
 
-    /* detalhes organograma totalmente virtual */
+    color: #000000;
+}
 
+/* Detalhes organograma totalmente virtual */
+nav a {
     position: absolute;
     width: 138px;
     height: 51px;
@@ -234,6 +216,5 @@
     text-decoration-line: underline;
 
     color: #000000;
-
-
+}
 }
