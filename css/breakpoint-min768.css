@@ -7,12 +7,6 @@ body {
     height: 476px;
 
     /* Página inteira */
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    bottom: 0px;
-
     background: #FCF1D7;
 }
 
@@ -21,9 +15,6 @@ body {
     position: absolute;
     width: 768px;
     height: 76px;
-    left: 0px;
-    top: 0px;
-
     background: #3664C1;
 }
 
@@ -34,7 +25,6 @@ h1 {
     height: 39px;
     left: 15px;
     top: 96px;
-
     background: #3664C1;
     border-radius: 5px;
 
@@ -46,10 +36,63 @@ h1 {
     top: 108px;
 
     font-family: 'Bitter';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
+    color: #FFFFFF;
+}
+
+/* Faça uma simulação aqui */
+/* Detalhes da solução */
+/* Simulação */
+/* Organograma das páginas */
+/* Totalmente virtual */
+h2 {
+    position: absolute;
+    background: #3664C1;
+    border-radius: 10px;
+    
+    font-family: 'Bitter', 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    text-indent: 20px;
+}
+
+/* Conheça nossos integrantes */
+h3 {
+    position: absolute;
+    width: 178px;
+    height: 16px;
+    left: 22px;
+    top: 390px;
+
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration-line: underline;
+
+    color: #000000;
+}
+   
+/* Textos */
+p {
+    position: absolute;
+    width: 739px;
+    height: 64px;
+    left: 15px;
+    top: 149px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #000000;
 }
 
 /* Simulação Tipo do seguro Informações Vistoria Validação da vistoria Apólice */
@@ -70,128 +113,6 @@ li a {
     color: #000000;
 }
 
-/* Conheça nossos integrantes */
-h3 {
-    position: absolute;
-    width: 178px;
-    height: 16px;
-    left: 22px;
-    top: 390px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-    text-decoration-line: underline;
-
-    color: #000000;
-}
-
-/* Barra de faça uma simulação aqui */
-h2 {
-    position: absolute;
-    width: 739px;
-    height: 39px;
-    left: 15px;
-    top: 237px;
-
-    background: #3664C1;
-    border-radius: 5px;
-    
-    /* Faça uma simulação aqui: */
-    position: absolute;
-    width: 166px;
-    height: 17px;
-    left: 22px;
-    top: 248px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-}
-
-/* Detalhes da solução */
-h2 {
-    position: absolute;
-    width: 128px;
-    height: 14px;
-    left: 22px;
-    top: 31px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
-}
-
-/* Simulação */
-h2 {
-    position: absolute;
-    width: 77px;
-    height: 14px;
-    left: 416px;
-    top: 31px;
-
-    font-family: 'Bitter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
-    text-decoration-line: underline;
-}
-
-/* Organograma das páginas */
-h2 {
-    position: absolute;
-    width: 159px;
-    height: 14px;
-    left: 575px;
-    top: 31px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
-}
-
-/* Totalmente virtual */
-h2 {
-    position: absolute;
-    width: 118px;
-    height: 14px;
-    left: 216px;
-    top: 31px;
-
-    font-family: 'Bitter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
-    text-decoration-line: underline;
-}
-    
-/* Textos */
-p {
-    position: absolute;
-    width: 739px;
-    height: 64px;
-    left: 15px;
-    top: 149px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 18px;
-
-    color: #000000;
-}
-
 /* Detalhes organograma totalmente virtual */
 nav a {
     position: absolute;
@@ -200,7 +121,7 @@ nav a {
     left: 22px;
     top: 414px;
 
-    font-family: 'Inter';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;

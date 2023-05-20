@@ -1,21 +1,18 @@
 @media (min-width: 600px) {   
 
-/* Auto layout */
+/* 600 */
 body {
+    position: relative;
+    width: 600px;
+    height: 476px;
+
+    /* Página inteira */
+    background: #FCF1D7;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
     gap: 10px;
-
-    position: relative;
-    width: 600px;
-    height: 476px;
-
-    /* 600 */
-    width: 600px;
-    height: 476px;
-    background: #FCF1D7;
 }
 
 /* Cabeçalho */
@@ -23,20 +20,16 @@ body {
     position: absolute;
     width: 600px;
     height: 76px;
-    left: 0px;
-    top: 0px;
-
     background: #3664C1;
 }
 
-/* Barra escrito technobike */
+/* Barra da technobike */
 h1 {
     position: absolute;
     width: 587px;
     height: 29px;
     left: 8px;
     top: 94px;
-
     background: #3664C1;
     border-radius: 5px;
 
@@ -48,28 +41,29 @@ h1 {
     top: 100px;
 
     font-family: 'Bitter';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
+    color: #FFFFFF;
 }
 
-/* Simulação Tipo do seguro Informações Vistoria Validação da vistoria Apólice */
-li a {
+/* Faça uma simulação */
+/* Detalhes da solução */
+/* Simulação */
+/* Organograma das páginas */
+/* Totalmente virtual */
+h2 {
     position: absolute;
-    width: 148px;
-    height: 84px;
-    left: 11px;
-    top: 292px;
+    background: #3664C1;
+    border-radius: 10px;
 
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: 'Bitter', 'Times New Roman', Times, Serif;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-indent: 20px;
     text-decoration-line: underline;
-
-    color: #000000;
 }
 
 /* Conheça nossos integrantes */
@@ -80,7 +74,7 @@ h3 {
     left: 14px;
     top: 393px;
 
-    font-family: 'Roboto';
+    font-family: 'Bitter';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -88,104 +82,6 @@ h3 {
     text-decoration-line: underline;
 
     color: #000000;
-}
-
-/* Barra escrita faça uma simulação */
-h2 {
-    position: absolute;
-    width: 587px;
-    height: 29px;
-    left: 8px;
-    top: 253px;
-
-    background: #3664C1;
-    border-radius: 5px;
-
-    
-    /* Faça uma simulação aqui: */
-    position: absolute;
-    width: 184px;
-    height: 20px;
-    left: 17px;
-    top: 257px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-
-    color: #FFFFFF;
-}
-
-/* Detalhes da solução */
-h2 {
-    position: absolute;
-    width: 125px;
-    height: 21px;
-    left: 14px;
-    top: 32px;
-
-    font-family: 'Bitter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 12px;
-    text-decoration-line: underline;
-
-    color: #FFFFFF;
-}
-
-/* Simulação */
-h2 {
-   position: absolute;
-   width: 64px;
-   height: 12px;
-   left: 317px;
-   top: 32px;
-
-   font-family: 'Bitter';
-   font-style: normal;
-   font-weight: 400;
-   font-size: 10px;
-   line-height: 12px;
-
-   color: #FFFFFF;
-}
-
-/* Organograma das páginas */
-h2 {
-    position: absolute;
-    width: 144px;
-    height: 12px;
-    left: 435px;
-    top: 32px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 12px;
-    text-decoration-line: underline;
-
-    color: #FFFFFF;
-}
-
-/* Totalmente virtual */
-h2 {
-    position: absolute;
-    width: 101px;
-    height: 12px;
-    left: 161px;
-    top: 32px;
-
-    font-family: 'Bitter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 12px;
-
-    color: #FFFFFF;
 }
 
 /* Textos */
@@ -205,6 +101,25 @@ p {
     color: #000000;
 }
 
+
+/* Simulação Tipo do seguro Informações Vistoria Validação da vistoria Apólice */
+li a {
+    position: absolute;
+    width: 148px;
+    height: 84px;
+    left: 11px;
+    top: 292px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration-line: underline;
+
+    color: #000000;
+}
+
 /* Detalhes organograma totalmente virtual */
 nav a {
     position: absolute;
@@ -213,7 +128,7 @@ nav a {
     left: 14px;
     top: 414px;
 
-    font-family: 'Inter';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
