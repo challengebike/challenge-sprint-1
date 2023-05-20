@@ -58,14 +58,14 @@ a {
 }
 
 .imgformat {
-    background-color: black;
-    max-width: 800px;
-    max-height: 500px;
+    max-width: 100%;
+    max-height: 100%;
     height: auto;
     width: auto;
-    margin: auto;
     display: block;
     border-radius: 10%;
+    padding: 10px;
+    margin: 0 auto;
 }
 
 .org {
